@@ -7,10 +7,10 @@
 
 {% block content %}
     <h1> Homepage </h1>
-    <img class="bookcover" 
-        src="{% static 'images/djangoforprofessionals.jpg' %}"
-        width=auto
-        height="400"/><br/>
+    <img 
+        src="{% static 'images/djangoforprofessionals.jpg' %}" 
+        style="width:300px; height:auto;"
+      /><br/>
     {% if user.is_authenticated %}
         Hi {{user.email}}!
         <p><a href="{% url 'logout' %}">Log Out</a></p>
