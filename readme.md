@@ -15,6 +15,7 @@ Neither 'pyenv' nor 'asdf' could be found to install Python.
 You can specify specific versions of Python with:
 $ pipenv --python path/to/python
 ```
+- python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
 ## fixed bugs
 

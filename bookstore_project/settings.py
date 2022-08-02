@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+
+    # third party apps
+    'crispy_forms',
+    'allauth',
+    'allauth.account',
 
     # local
     'users.apps.UsersConfig', #users app
@@ -134,5 +140,18 @@ STATICFILES_FINDERS =[
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
+
+# django allauth config
 LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+ACOUNT_LOGOUT_REDIRECT = 'home'
+
+SITE_ID = 1 
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    "allauth.accounts.auth_backends.AuthenticationBackend",
+)
+
+EMAIL_BACKEND = 'django.core.mail.backends.EmailBackend',
+
+
