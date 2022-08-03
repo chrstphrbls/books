@@ -1,5 +1,6 @@
 # Book Store app
 - this is based on the Django for beginners pdf
+``https://github.com/chrstphrbls/books``
 
 ## added features
 ```link
