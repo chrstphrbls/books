@@ -8,6 +8,35 @@
 - PostgreSQL Database
 
 ## bugs
+- cannot log Out after logging in.
+
+- nav bar bug - lis is not supposed to be in the left side of the nav bar.accordion-button
+
+## fixed bugs
+
+- cannot log Out after logging in. -fixed by removing the excess tag inside the LogOut button. `type="button"` into `type="submit"`
+
+- bug upon clicking login button
+```
+ModuleNotFoundError at /accounts/login/
+No module named 'allauth.accounts'
+Request Method:	POST
+Request URL:	http://127.0.0.1:8000/accounts/login/
+``` fixed by adding the allauth_socialaccounts in the settings.py
+
+- bug upon clicking signup button
+```
+AttributeError at /accounts/signup/
+'tuple' object has no attribute 'rsplit'
+Request Method:	POST
+Request URL:	http://127.0.0.1:8000/accounts/signup/
+```
+- allauth cannot be properly used. login/signup and home - fixed. typo, 'acccount_signup' to 'account_signup'
+```html
+      href="{% url 'acccount_signup' %}">Sign Up</a>
+```fixed by adding the allauth_socialaccounts in the settings.py
+
+
 - crispy forms cannot be used. 
 ```bash
 Warning: Python 3.10 was not found on your system...
@@ -17,11 +46,9 @@ $ pipenv --python path/to/python
 ```
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
-## fixed bugs
-
 ## QA Comments
 Current issues found:  
--
+- QAs installing docker/dependencies
 ## Contributing
 -[@christophernabo](https://github.com/christophernabo)  
 -[@MaFloresTuscano](https://github.com/MaFloresTuscano)
