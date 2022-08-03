@@ -55,7 +55,10 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 Current issues found:  
-- QAs installing docker/dependencies
+- 
+
+## QA Contributions
+- QAs installed docker/dependencies. can run the program on their end.
 
 ## Contributing QAs
 -[@christophernabo](https://github.com/christophernabo)  
