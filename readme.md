@@ -2,6 +2,9 @@
 - this is based on the Django for beginners pdf
 
 ## added features
+```link
+      https://github.com/users/chrstphrbls/projects/1/views/1
+``
 - User Registration
 - Pages App
  -installed docker
