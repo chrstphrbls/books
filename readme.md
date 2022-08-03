@@ -7,10 +7,9 @@
  -installed docker
 - PostgreSQL Database
 - Advanced User Registration
+- Environment Variables
 
 ## bugs
-- cannot log Out after logging in.
-
 - nav bar bug - lis is not supposed to be in the left side of the nav bar.accordion-button
 
 ## fixed bugs
