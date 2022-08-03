@@ -27,7 +27,25 @@ Request URL:	http://127.0.0.1:8000/accounts/signup/
 
 
 ## fixed bugs
+- bug upon clicking signup button, can create
+```
+AttributeError at /accounts/signup/
+'tuple' object has no attribute 'rsplit'
+Request Method:	POST
+Request URL:	http://127.0.0.1:8000/accounts/signup/
 
+fixed by removng the comma after "'" and added .console.EmailBackend 
+
+from:
+```bash
+EMAIL_BACKEND = 'django.core.mail.backends.EmailBackend',
+```
+into:
+```
+
+```bash
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+```
 - cannot log Out after logging in. -fixed by removing the excess tag inside the LogOut button. `type="button"` into `type="submit"`
 
 - bug upon clicking login button

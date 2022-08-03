@@ -1,4 +1,4 @@
-{% load il8n %}
+{% load i18n %}
 {% autoescape off %}
 {% blocktrans %}Confirm your Signup{% endblocktrans %}a
 {% endautoescape %}
