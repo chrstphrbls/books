@@ -1,6 +1,6 @@
 {% load i18n %}
 {% autoescape off %}
-{% blocktrans %}Confirm your Signup{% endblocktrans %}a
+{% blocktrans %}Confirm your Signup{% endblocktrans %}
 {% endautoescape %}
 
 
