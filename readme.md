@@ -11,6 +11,14 @@
 
 ## bugs
 - nav bar bug - lis is not supposed to be in the left side of the nav bar.accordion-button
+- bug upon clicking signup button, can create
+```
+AttributeError at /accounts/signup/
+'tuple' object has no attribute 'rsplit'
+Request Method:	POST
+Request URL:	http://127.0.0.1:8000/accounts/signup/
+```
+
 
 ## fixed bugs
 
@@ -24,14 +32,7 @@ Request Method:	POST
 Request URL:	http://127.0.0.1:8000/accounts/login/
 ``` fixed by adding the allauth_socialaccounts in the settings.py
 
-- bug upon clicking signup button
-```
-AttributeError at /accounts/signup/
-'tuple' object has no attribute 'rsplit'
-Request Method:	POST
-Request URL:	http://127.0.0.1:8000/accounts/signup/
-```
-- allauth cannot be properly used. login/signup and home - fixed. typo, 'acccount_signup' to 'account_signup'
+
 ```html
       href="{% url 'acccount_signup' %}">Sign Up</a>
 ```fixed by adding the allauth_socialaccounts in the settings.py
