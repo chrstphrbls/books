@@ -4,8 +4,9 @@
 ## added features
 - User Registration
 - Pages App
- installed docker
+ -installed docker
 - PostgreSQL Database
+- Advanced User Registration
 
 ## bugs
 - cannot log Out after logging in.
