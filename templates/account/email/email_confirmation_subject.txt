@@ -1,0 +1,9 @@
+{% load il8n %}
+{% autoescape off %}
+{% blocktrans %}Confirm your Signup{% endblocktrans %}a
+{% endautoescape %}
+
+
+
+
+

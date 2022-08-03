@@ -142,6 +142,10 @@ STATICFILES_FINDERS =[
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
+
+# django-cripy-forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 # django allauth config
 LOGIN_REDIRECT_URL = 'home'
 ACOUNT_LOGOUT_REDIRECT = 'home'
@@ -155,7 +159,7 @@ AUTHENTICATION_BACKENDS = (
 
 EMAIL_BACKEND = 'django.core.mail.backends.EmailBackend',
 
-ACCOUNT_SESSION_REMEMBER = False
+ACCOUNT_SESSION_REMEMBER = True
 
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 

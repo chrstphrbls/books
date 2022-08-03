@@ -9,9 +9,10 @@
 
 {% block content %}
     <h2>Sign Up</h2>
-    <form method="post" action="{% url 'home' %}">{% csrf_token %}
-        {{form|crispy}}
+    <form method="post" >
+        {% csrf_token %}
+        {{ form|crispy }}
         <br>
-        <button class="btn btn-primary" type="submit">Sign up</button>
+        <button class="btn btn-success" type="submit">Sign up</button>
     </form>
 {% endblock content %}
