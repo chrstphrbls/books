@@ -1,6 +1,8 @@
 # Book Store app
 - this is based on the Django for beginners pdf
-```https://github.com/chrstphrbls/books```
+```link
+https://github.com/chrstphrbls/books
+```
 
 ## added features
 ```link
@@ -54,7 +56,8 @@ $ pipenv --python path/to/python
 ## QA Comments
 Current issues found:  
 - QAs installing docker/dependencies
-## Contributing
+
+## Contributing QAs
 -[@christophernabo](https://github.com/christophernabo)  
 -[@MaFloresTuscano](https://github.com/MaFloresTuscano)
 
