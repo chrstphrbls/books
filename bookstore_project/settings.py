@@ -147,6 +147,10 @@ AUTHENTICATION_BACKENDS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# configure EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT,
+# and EMAIL_USE_TLS based on the instructions from your email provider as environment
+# variable
 
 ACCOUNT_SESSION_REMEMBER = True
 
