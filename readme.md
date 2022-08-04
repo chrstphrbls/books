@@ -8,12 +8,12 @@ https://github.com/chrstphrbls/books
 ```link
       https://github.com/users/chrstphrbls/projects/1/views/1
 ```
-- User Registration
-- Pages App
- -installed docker
-- PostgreSQL Database
-- Advanced User Registration
-- Environment Variables
+- [] User Registration
+- [] Pages App
+- [] installed docker
+- [] PostgreSQL Database
+- [] Advanced User Registration
+- [] Environment Variables
 
 ## bugs
 - nav bar bug - lis is not supposed to be in the left side of the nav bar.accordion-button
