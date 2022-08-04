@@ -73,7 +73,7 @@ $ pipenv --python path/to/python
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
 ## QA Comments
-Current issues found:  
+- Current issues found:  
 ```bash
 <<<<<<< HEAD
 - 404: not found
