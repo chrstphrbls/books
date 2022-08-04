@@ -5,7 +5,7 @@ https://github.com/chrstphrbls/books
 ```
 
 ## added features
-- check the link for the progress
+- check the link for the progress and issues
 
 ```link
       https://github.com/users/chrstphrbls/projects/1/views/1
