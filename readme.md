@@ -74,7 +74,8 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 Current issues found:  
-- 
+-the web application does not retain user accounts after some time (FOR IMPLEMENTATION)
+
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
