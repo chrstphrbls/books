@@ -76,7 +76,7 @@ $ pipenv --python path/to/python
 - Current issues found:  
 ```bash
 <<<<<<< HEAD
-- 404: not found
+- Book contents cannot be found (Error 404)
 - No user account retention (FOR IMPLEMENTATION)
 =======
 405
