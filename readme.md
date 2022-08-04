@@ -75,6 +75,7 @@ $ pipenv --python path/to/python
 ## QA Comments
 Current issues found:  
 405
+Attribute Error at accounts signup
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
