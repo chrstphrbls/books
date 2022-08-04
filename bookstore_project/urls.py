@@ -15,5 +15,5 @@ urlpatterns = [
     #local apps
     path('',include('pages.urls')), #set pages to be the homepage
     path('books/', include('books.urls')),#link a path to the books page 
-] + static(settings.MEIDA_URL, document_root=settings.MEDIA_ROOT) #define the upload path and url
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #define the upload path and url
 
