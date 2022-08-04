@@ -74,6 +74,7 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 - Current issues found:  
+-AttributeError at 127.0.0.1:8000/books/ 
 ```bash
 <<<<<<< HEAD
 - 404: not found
