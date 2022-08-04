@@ -1,0 +1,13 @@
+<!-- templates/books/book_detail -->
+{% extends '_base.html' %}
+
+{% block tite %} {{ object.title}} {% endblock tite %}
+
+{% block content %}
+    <div class = "book-detail">
+        <h2><a href="{{ object.title }}"> {{ object.title}} </a></h2>
+        <p>Author: {{ object.author }}</p>
+        <p>Price: {{ object.price }}</p>
+    </div>
+{% endblock content %}
+
