@@ -84,7 +84,8 @@ Attribute Error at accounts signup
 =======
 >>>>>>> 97a27df353e5c2dbc00d8b3c9306a2dff00990c1
 >>>>>>> ba51c89593c9f9f67c342a9d5c6863bfd40b99da
-Sign out error 
+Sign out error  
+Account creation issue
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
