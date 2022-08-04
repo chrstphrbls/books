@@ -73,8 +73,25 @@ $ pipenv --python path/to/python
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
 ## QA Comments
-Current issues found:  
-- 404: not found
+- Current issues found: 
+
+- Book contents cannot be found (Error 404)
+- No user account retention (FOR IMPLEMENTATION)
+- error at accounts signup
+```bash
+<<<<<<< HEAD
+=======
+405
+<<<<<<< HEAD
+Attribute Error at accounts signup
+=======
+>>>>>>> 97a27df353e5c2dbc00d8b3c9306a2dff00990c1
+>>>>>>> ba51c89593c9f9f67c342a9d5c6863bfd40b99da
+Sign out error  
+Account creation issue
+Run-time issue
+404 not found issue
+```
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
