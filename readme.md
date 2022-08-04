@@ -86,6 +86,7 @@ Attribute Error at accounts signup
 >>>>>>> ba51c89593c9f9f67c342a9d5c6863bfd40b99da
 Sign out error  
 Account creation issue
+Run-time issue
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
