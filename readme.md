@@ -74,7 +74,7 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 Current issues found:  
--the web application does not retain user accounts after some time.
+-the web application does not retain user accounts after some time (FOR IMPLEMENTATION)
 
 
 ## QA Contributions
