@@ -6,7 +6,7 @@ https://github.com/chrstphrbls/books
 
 ## added features
 - check the link for the progress
-- 
+
 ```link
       https://github.com/users/chrstphrbls/projects/1/views/1
 ```
