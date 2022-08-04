@@ -74,8 +74,12 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 Current issues found:  
+<<<<<<< HEAD
 - 404: not found
 - No user account retention (FOR IMPLEMENTATION)
+=======
+405
+>>>>>>> 97a27df353e5c2dbc00d8b3c9306a2dff00990c1
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
