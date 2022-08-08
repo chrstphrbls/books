@@ -71,6 +71,7 @@ $ pipenv --python path/to/python
 ## QA Comments
 Current issues found: 
 - Book title is displayed but contents are inaccessible when the book is clicked as a search result.
+- When not logged in, books can still be accessed as search results.
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
