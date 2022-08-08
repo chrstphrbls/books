@@ -69,8 +69,8 @@ $ pipenv --python path/to/python
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
 ## QA Comments  
-Current issues found: 
-- ImproperlyConfigured error
+Current issues found:  
+
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
