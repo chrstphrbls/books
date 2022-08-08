@@ -70,7 +70,7 @@ $ pipenv --python path/to/python
 
 ## QA Comments
 - Current issues found: 
- - ImproperlyConfigured error (indicated users can't read all books: admin@example & ethyl@example.com)
+ - ImproperlyConfigured error (indicated users can't read all books: admin@example.com & ethyl@example.com)
  - Added tests not working
 
 ## QA Contributions
