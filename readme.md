@@ -68,8 +68,8 @@ $ pipenv --python path/to/python
 ```
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
-## QA Comments
-- Current issues found: 
+## QA Comments  
+Current issues found: 
  - ImproperlyConfigured error (indicated users can't read all books: admin@example.com & ethyl@example.com)
  - Added tests not working
 
