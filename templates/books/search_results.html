@@ -10,8 +10,8 @@
     {% for books in book_list  %}
         <div>
             <h3> <a href="{{ books.get_abolute_url }}"> {{ books.title}}</a> </h3>
-            <p> Author: {{ book.author }}</p>
-            <p> Price: ${{ book.price}} </p>
+            <p> Author: {{ books.author }}</p>
+            <p> Price: ${{ books.price}} </p>
         </div>
     {% endfor %}
 {% endblock content %}
