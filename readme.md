@@ -87,6 +87,7 @@ Sign out error
 Account creation issue
 Run-time issue
 404 not found issue
+Improperly Configured Error upon clicking book detail
 ```
 
 ## QA Contributions
