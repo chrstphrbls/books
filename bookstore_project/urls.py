@@ -11,6 +11,7 @@ urlpatterns = [
 
     #local apps
     path('',include('pages.urls')), #set pages to be the homepage
-    path('books/', include('books.urls')),#link a path to the books page 
+    path('books/', include('books.urls')), #link a path to the books page 
+    path('orders/',include('orders.urls')), #link a path to the orders page
 ]
 
