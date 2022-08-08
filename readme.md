@@ -68,6 +68,7 @@ $ pipenv --python path/to/python
 ```
 - python version cannot be found on your system... - fixed by editing the Pipfile 3.10 into 3.7
 
+<<<<<<< HEAD
 ## QA Comments
 - Current issues found: 
 
@@ -89,6 +90,12 @@ Run-time issue
 404 not found issue
 Improperly Configured Error upon clicking book detail
 ```
+=======
+## QA Comments  
+Current issues found: 
+ - ImproperlyConfigured error (indicated users can't read all books: admin@example.com & ethyl@example.com)
+ - Added tests not working
+>>>>>>> f6df3df74faa2461f1eb9b6a467391d363197512
 
 ## QA Contributions
 - QAs installed docker/dependencies. can run the program on their end.
